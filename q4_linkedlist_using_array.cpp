@@ -76,7 +76,7 @@ public:
     }
 };
 
-// ✅ MAIN FUNCTION (ADDED)
+//MAIN
 int main() {
     ArrayLinkedList list;
 

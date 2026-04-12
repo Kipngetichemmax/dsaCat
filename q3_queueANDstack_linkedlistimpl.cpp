@@ -1,4 +1,4 @@
-
+ 
 #include <iostream>
 using namespace std;
 
@@ -78,14 +78,11 @@ public:
 
 
 
-//QUEUES
+//QUEUES--------------------+++++++
 
 
 
-
-// =====================================================
-// 1. LINEAR QUEUE (Linked List)
-// =====================================================
+// LINEAR QUEUE (Linked List)
 class LinearQueue {
 private:
     struct Node {
@@ -152,9 +149,7 @@ public:
 };
 
 
-// =====================================================
-// 2. CIRCULAR QUEUE (Linked List)
-// =====================================================
+// CIRCULAR QUEUE (Linked List)
 class CircularQueue {
 private:
     struct Node {
@@ -225,10 +220,8 @@ public:
 };
 
 
-// =====================================================
-// 3. PRIORITY QUEUE (Linked List)
+// PRIORITY QUEUE (Linked List)
 // Lower value = higher priority
-// =====================================================
 class PriorityQueue {
 private:
     struct Node {
@@ -298,9 +291,7 @@ public:
 };
 
 
-// =====================================================
-// MAIN (TEST ALL)
-// =====================================================
+// MAIN 
 int main() {
 
 

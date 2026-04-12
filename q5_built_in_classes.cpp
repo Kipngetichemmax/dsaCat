@@ -8,9 +8,7 @@ using namespace std;
 
 int main() {
 
-    // =========================
-    // a) STACK (LIFO)
-    // =========================
+    //  STACK (LIFO)
     cout << "STACK DEMO\n";
 
     stack<int> st;
@@ -33,9 +31,7 @@ int main() {
     cout << "\n\n";
 
 
-    // =========================
-    // b) QUEUE (FIFO)
-    // =========================
+    // QUEUE (FIFO) 
     cout << "QUEUE DEMO\n";
 
     queue<int> q;
@@ -59,9 +55,7 @@ int main() {
     cout << "\n\n";
 
 
-    // =========================
     // c) LINKED LIST (std::list)
-    // =========================
     cout << "LINKED LIST DEMO\n";
 
     list<int> ll;

@@ -72,14 +72,12 @@ public:
 
 
 
-//QUEUES
+//QUEUES-------------------------------
 
 
 #define MAX 100
 
-// =====================================================
-// 1. LINEAR QUEUE
-// =====================================================
+// LINEAR QUEUE
 class LinearQueue {
 private:
     int arr[MAX];
@@ -132,9 +130,7 @@ public:
 };
 
 
-// =====================================================
-// 2. CIRCULAR QUEUE
-// =====================================================
+// CIRCULAR QUEUE
 class CircularQueue {
 private:
     int arr[MAX];
@@ -200,9 +196,7 @@ public:
 };
 
 
-// =====================================================
-// 3. PRIORITY QUEUE (Ascending priority: smaller = higher priority)
-// =====================================================
+// PRIORITY QUEUE (Ascending priority: smaller = higher priority)
 class PriorityQueue {
 private:
     int arr[MAX];
@@ -267,9 +261,7 @@ public:
 };
 
 
-// =====================================================
-// MAIN (TEST ALL)
-// =====================================================
+// MAIN
 int main() {
 
 
