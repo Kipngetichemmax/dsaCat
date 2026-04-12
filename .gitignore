@@ -1,0 +1,22 @@
+
+
+# compiled files
+*.exe
+*.out
+*.o
+
+# folders (your case)
+q*/build/
+q*/bin/
+
+# optional: compiled artifacts anywhere
+build/
+bin/
+
+
+# compiled executables (Linux/Termux)
+q1
+q2
+q3
+q4
+q5
