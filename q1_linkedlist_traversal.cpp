@@ -1,50 +1,4 @@
 
-/*
-
-====================================================
-Q1: LINKED LIST TRAVERSAL
-====================================================
-
-Start → [100] → [200] → [300] → [400] → [500] → NULL
-
-----------------------------------------------------
-a) ALGORITHM
-----------------------------------------------------
-1. Set pointer current = start
-2. While current != NULL:
-      Print current.data
-      Move current = current.next
-3. Stop when current == NULL
-
-
-----------------------------------------------------
-b) PSEUDOCODE
-----------------------------------------------------
-TRAVERSE_LINKED_LIST(start)
-
-    current ← start
-
-    WHILE current ≠ NULL DO
-        PRINT current.data
-        current ← current.next
-    END WHILE
-
-END
-
-
-----------------------------------------------------
-c) EXPLANATION
-----------------------------------------------------
-Traversal uses a pointer that starts at the head node.
-It visits each node, processes its data, and moves to the next node using next pointer.
-It stops when it reaches NULL (end of list).
-====================================================
-
-
-*/
-
-
-
 #include <iostream>
 using namespace std;
 
@@ -95,3 +49,51 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+/*
+
+====================================================
+Q1: LINKED LIST TRAVERSAL
+====================================================
+
+Start → [100] → [200] → [300] → [400] → [500] → NULL
+
+----------------------------------------------------
+a) ALGORITHM
+----------------------------------------------------
+1. Set pointer current = start
+2. While current != NULL:
+      Print current.data
+      Move current = current.next
+3. Stop when current == NULL
+
+
+----------------------------------------------------
+b) PSEUDOCODE
+----------------------------------------------------
+TRAVERSE_LINKED_LIST(start)
+
+    current ← start
+
+    WHILE current ≠ NULL DO
+        PRINT current.data
+        current ← current.next
+    END WHILE
+
+END
+
+----------------------------------------------------
+c) EXPLANATION
+----------------------------------------------------
+Traversal uses a pointer that starts at the head node.
+It visits each node, processes its data, and moves to the >
+It stops when it reaches NULL (end of list).
+====================================================
+
+
+*/
+
