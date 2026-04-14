@@ -11,7 +11,7 @@ struct Node {
 // Function to traverse the linked list
 void traverse(Node* head) {
     Node* current = head;
-
+	
     while (current != nullptr) {
         cout << current->data << " -> ";
         current = current->next;

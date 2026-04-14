@@ -87,7 +87,6 @@ public:
     LinearQueue() {
         front = rear = -1;
     }
-
     bool isEmpty() {
         return front == -1 || front > rear;
     }
